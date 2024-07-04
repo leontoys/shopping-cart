@@ -27,8 +27,10 @@ addButtonEl.addEventListener("click", function() {
     //read the input value
     let inputValue = inputFieldEl.value
     
+    if(inputValue){
     //push that value into the db 
     push(shoppingListInDB, inputValue)
+    }
     
     //clear
     clearInputFieldEl()

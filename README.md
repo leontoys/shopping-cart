@@ -1,3 +1,3 @@
-#Shopping cart
+# Shopping cart
 
-##A demo app to add items to firebase db
+## A demo app to add items to firebase db
